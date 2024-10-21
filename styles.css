@@ -1,0 +1,36 @@
+
+
+
+#more-summary{
+ display: flex;
+}
+
+
+#more-summary #art-more{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem ;
+  padding-right: 5rem;
+
+}
+
+#more-summary #art-more #div-txt-more{
+    display: flex;
+    gap: 10px;
+}
+
+
+#more-summary #img-more-container{
+
+    display: flex;
+    flex-direction: row-reverse;
+    
+    width: fit-content;
+}
+
+#more-summary #img-more-container #img-more{
+    
+    width: 50vw;
+}
